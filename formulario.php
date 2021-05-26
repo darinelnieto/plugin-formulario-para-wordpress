@@ -23,11 +23,7 @@ function NASA_seguimientos_init(){
 	dbDelta($query);
 }
 
-
-
 add_shortcode( 'NASA_astronautas', 'plugin_NASA_astro' );
-
-
 
 function plugin_NASA_astro(){
 	global $wpdb;
